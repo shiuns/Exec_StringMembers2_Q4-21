@@ -13,7 +13,8 @@ namespace 作業_Exec_StringMembers2_Q4__21謝孟勳
     {
         static void Main(string[] args)
         {
-            //不會使用TaiwanCalendar
+            DateTime dateTime = new DateTime(110, 02, 25).AddYears(1911);
+            Console.WriteLine(dateTime);
         }
     }
 }
